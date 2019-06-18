@@ -1,0 +1,23 @@
+{
+  "name": "ejemplo16",
+  "version": "0.0.1",
+  "description": "Este es un proyecto donde mostraremos el ejempo 16 de desarrollo de software IX.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "javascript",
+    "node",
+    "express",
+    "jest"
+  ],
+  "author": "Erick Agrazal",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "jest": "^24.8.0",
+    "pug": "^2.0.3"
+  }
+}
