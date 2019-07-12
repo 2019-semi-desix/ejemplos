@@ -25,7 +25,7 @@ services:
      - ./.env
     hostname: ejem182_db01
     ports:
-      - "27117:27017"
+      - "27017:27017"
     volumes:
       - ./mongo-data:/data/db
     restart: always
